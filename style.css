@@ -43,6 +43,10 @@ button {
   font-family: 'Space Grotesk', sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+
 body {
   margin: 0;
   background-color: var(--bg-body);
@@ -598,7 +602,7 @@ h1 > span {
   }
 
   .projects__item:hover .projects__picture::after {
-    opacity: 0.5;
+    opacity: 0.7;
   }
 
   .projects__item:hover .projects__links {
@@ -614,7 +618,7 @@ h1 > span {
 
   .projects__image {
     width: 100%;
-    height: auto;
+   height: auto;
   }
 
   .projects__links {
